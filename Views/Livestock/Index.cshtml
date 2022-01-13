@@ -1,0 +1,191 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="container">
+    <img src="~/images/animalGroup.png" alt="animalGroup" class="d-block w-100 img-responsive" />
+    <hr /><div class="row">
+        <center>
+            <h1>
+                - OUR ANIMALS -
+            </h1>
+        </center>
+    </div>
+</div>
+<hr />
+<br />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/images/cows.jpg" alt="cows" class="d-block w-100 img-responsive" />
+        </div>
+
+        <div class="col-md-6">
+            <center><h4>Guide To Feed Cattle</h4></center>
+            <button type="button" class="collapsible">Determine how much food your cattle needs</button>
+            <div class="content">
+                <p>
+                    <b>Diary Cattle </b>require more feed to maintain their weight than beef cattle<br />
+                    <b>British breeds (Angus,Shorthorn, or Hereford) </b>have lower food needs<br />
+                    <b>Continental breeds (Charolais or Limousin) </b>typically need more energy and protein<br />
+                    <b>Exotic breeds </b> have higher feed requirements than continental or British breeds<br />
+                </p>
+            </div>
+            <button type="button" class="collapsible">Figure out how much weight you cattle should gain</button>
+            <div class="content">
+                <p>
+                    Average Daily Gain (ADG) is determined by your cattle’s current weight, their body fat composition,
+                    and their age. Take the target weight of your cow and subtract its current weight. Then divide that
+                    number by how many days until you want the cow to reach its target weight.
+                </p>
+            </div>
+            <button type="button" class="collapsible">Feed cattle based on weather and location</button>
+            <div class="content">
+                <p>
+                    <b>Increase food</b><br />
+                    <ul>
+                        <li>Temps drops below -4 F (-20 C)</li>
+                        <li>High winds in the area</li>
+                    </ul>
+                    <b>Decrease food</b><br />
+                    <ul>
+                        <li>Temps goes above 86 F (30 C)</li>
+                        <li>Nights colling does not occur</li>
+                    </ul>
+                </p>
+            </div>
+            <button type="button" class="collapsible">Common high-quality feed that meets the nutrutional requirements</button>
+            <div class="content">
+                <p>
+                    <ul>
+                        <li>Hay</li>
+                        <li>Grain (Oats, Wheat, Barley, Rye)</li>
+                        <li>Straw or chaff</li>
+                        <li>Vitamin or mineral supplements</li>
+                        <li>Salt</li>
+                    </ul>
+                </p>
+            </div>
+            <button type="button" class="collapsible">Determine what feeds are available</button>
+            <div class="content">
+                <p>
+                    <b>Mix </b>A combination of hay, silage, grain, supplement, mineral, salt, by-product, salt, vitamin, etc.e<br />
+                    <b>Hay </b>A grass, legume, or grass-legume mix. Pasture available for grazing may be also included in this feed type,
+                    even though pasture isn't sun-cured harvested forage like hay is<br />
+                    <b>Grain </b>Includes corn, oats, barley, wheat, rye, and triticale<br />
+                    <b>Straw/Chaff</b>Typically includes cereal grain chaff baled, barley, oats, triticale, rye, and wheat.
+                    Legume or pulse straw also includes pea, flax, lentil, and greenfeed<br />
+                    <b>Vitamins </b>Vitamins A, D, and E are sold in various forms as a feed-mix supplement<br />
+                    <b>Minerals </b>Are calcium [Ca], phosphorus [P], sodium [Na], chloride [Cl], potassium [K], magnesium [Mg], and sulphur [S].
+                    Microminerals are cobalt [Co], iodine [I], iron [Fe], molybdenum [Mo], manganese [Mn], copper [Cu], zinc [Zn], and selenium [Se].
+                    Mineral bags with Ca and P are usually sold as a ratio of 1:1 or 2:1. Less common are mineral sold as greater than 2:1,
+                    though 7:1 is still appropriate for cattle. Macrominerals are labelled as a percentage while microminerals are labelled as mg/kg
+                    or parts per million [ppm]<br />
+                    <b>Salt </b>Comes in block or loose form. Most blocks are 95 to 98% salt and 5% or 2% mineral respectively`<br />
+                </p>
+            </div>
+            <script>var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
+                }</script>
+        </div>
+    </div>
+    <br /><br />
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/images/pigs.jpg" alt="pigs" class="d-block w-100 img-responsive" />
+        </div>
+
+        <div class="col-md-6">
+            <center><h4>Guide To Feed Pigs</h4></center>
+            <div>
+                <ul>
+                    <li>A combination of protein source, milk replacer, vitamins, amino acids and rich feed ingredients makes this complete feed the ideal start for young healthy piglets.</li>
+                    <li>Feeds should meet the animal’s needs for maintenance, growth and reproduction. Good pig feed contains sufficient energy, protein, minerals and vitamins. Rice bran, broken rice, maize, soya-beans, cassava, vegetables and distillers’ residues are often used in pig feed.</li>
+                    <li>
+                        Pigs must also be fed on time, since it makes them familiar to the feeding regime. Pigs need to be fed according to their sizes and ages. Troughs must be anchored so they cannot be turned over.
+                    </li>
+                    <li>By not providing enough water for your pigs you will reduce their daily feed intake. Ample clean water must be available for your pigs to drink at all times.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br /><br />
+          <div class="row">
+              <div class="col-md-6">
+                  <img src="~/images/chickens.jpg" alt="chickens" class="d-block w-100 img-responsive" />
+              </div>
+              <div class="col-md-6">
+                  <p>
+                      <center><h4 style="bottom: 5px; position: relative;">Guide To Raise Chickens</h4></center>
+                  </p>
+
+                  <table class="tableStyle" style=" bottom:10px; position:relative;">
+                      <thead>
+                          <tr class="tableColor">
+                              <th>Prepare Their Home</th>
+                              <th>Choose Your Chickens</th>
+                              <th>Start Farming</th>
+                          </tr>
+                      </thead>
+                      <tr>
+                          <td>Make sure you're got the space</td>
+                          <td>Go for pullets</td>
+                          <td>Feed them</td>
+                      </tr>
+                      <tr>
+                          <td>Choose a coop</td>
+                          <td>Pick a breed</td>
+                          <td>Let them roam</td>
+                      </tr>
+                      <tr>
+                          <td>Buy a drinker and a feeder</td>
+                          <td>Spring for a trio</td>
+                          <td>Harvest you breakfast daily</td>
+                      </tr>
+                      <tr>
+                          <td>Give their feet a break</td>
+                          <td>Hens only</td>
+                          <td>Clean up and compost</td>
+                      </tr>
+                  </table>
+              </div>
+
+          </div>
+    <br /><br />
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/images/sheep.jpg" alt="sheep" class="d-block w-100 img-responsive" />
+        </div>
+
+        <div class="col-md-6">
+            <center><h4>Guide To Breed Sheep</h4></center>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dr9_FuYGAsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/images/horses.jpg" alt="horses" class="d-block w-100 img-responsive" />
+        </div>
+
+        <div class="col-md-6">
+            <center><h4>Guide To Take Care Of Horses</h4></center>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zI8JSTGtRQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
